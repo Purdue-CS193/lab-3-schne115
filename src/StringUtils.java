@@ -12,7 +12,7 @@ public class StringUtils {
             Ex: firstName = "Sean", lastName = "Flannery"
                     --> res = "SFlannery"
          */
-        String res = firstName.substring(0,1) + lastName;
+        String res = firstName.substring(0,1) + lastName.substring(0,7);
         /* Shorten the string to 8 characters
             Ex: res = "SFlannery"
                     --> res = "SFlanner"
