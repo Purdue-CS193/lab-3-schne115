@@ -24,7 +24,7 @@ public class StringUtils {
             Ex: res = "SFlanner"
                     --> res = "sflanner"
          */
-        res.toLowerCase();
+        res = res.toLowerCase();
         /* return the result of our calculation */
         return res;
     }
